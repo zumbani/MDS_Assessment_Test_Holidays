@@ -29,6 +29,8 @@ Please follow these steps to test.
 
 First of all run   composer install to install all the dependencies 
 
+To generate the Application Encryprion Key , run the **php artisan key:generat**e command
+
 **Step 1** . Create a MySQL Database
 
 **Step 2** . Create a **.env** file from the .env.Example file in the home directory. 
