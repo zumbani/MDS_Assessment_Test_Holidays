@@ -4,14 +4,23 @@ Create a small app that fetches South African public holidays for a given year a
  
 ### The Problem:
 Use Laravel for the back-end.
+
 Use Bootstrap for the front-end.
+
 Fetch from http://kayaposoft.com/enrico.
+
 Store the data locally
+
 Fetch the data via a console job.
+
 Add a link to download the holiday list as a pdf.
+
 Create unit tests for the console job. Use PhpUnit.
+
 Use git, with clear commits.
+
 Clean code and inventiveness are valued.
+
 Please add code to Github/Bitbucket/etc and send us the link.
 
 
