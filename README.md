@@ -35,9 +35,9 @@ Step 2 . Configure database parameters in the .env file
 
 Step 3 . Run php artisan:migrate  to create the table to hold the holidays
 
-Step 4 . Run php artisan serve to fire the web server
+Step 4 . Run php holidays:za 2022 to fetch the South African holiday for 2022. Change the year to fetch a different year.
 
-Step 5 . Run php holidays:za 2022 to fetch the South African holiday for 2022. Change the year to fetch a different year.
+Step 5 . Run php artisan serve to fire the web server
 
 Step 6. Fire the browser and go to the home page
 
