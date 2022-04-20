@@ -29,18 +29,20 @@ Please follow these steps to test.
 
 First of all run   composer install to install all the dependencies 
 
-Step 1 . Create a MySQL Database
+**Step 1** . Create a MySQL Database
 
-Step 2 . Configure database parameters in the .env file
+**Step 2** . Create a **.env** file from the .env.Example file in the home directory. 
 
-Step 3 . Run php artisan migrate  to create the table to hold the holidays
+**Step 3** . Configure **database parameters** in the **.env** file
 
-Step 4 . Run php artisan holidays:za 2022 to fetch the South African holiday for 2022. Change the year to fetch a different year.
+**Step 4** . Run **php artisan migrate**  to create the table to hold the holidays
 
-Step 5 . Run php artisan serve to fire the web server
+**Step 5** . Run **php artisan holidays:za 2022** to fetch the South African holiday for 2022. Change the year to fetch a different year.
 
-Step 6. Fire the browser and go to the home page
+**Step 6** . Run **php artisan serve** to fire the web server
 
-Step 7. Click the ## Download Pdf ## link to download a pdf file containing the holidays
+**Step 7**. Fire the browser and go to the home page
 
-Step 8. Run ## $ php artisan test --filter HolidaysTest ## to fire a test tofetch the holidays
+**Step 8**. Click the **Download Pdf** link to download a pdf file containing the holidays
+
+**Step 8**. Run **php artisan test --filter HolidaysTest**  to fire a test tofetch the holidays
