@@ -10,7 +10,7 @@
 <body>    
 <div class="container mt-5">
     <h2 class="mb-4">South African Holidays</h2>
-    <a href="{{ route('holidays.pdf') }}">Holiday PDF </a>
+    <a href="{{ route('holidays.pdf') }}">Download Pdf</a>
     <table class="table table-bordered holiday-datatable">
         <thead>
             <tr>
