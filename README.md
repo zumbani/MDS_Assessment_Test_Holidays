@@ -27,7 +27,9 @@ Please add code to Github/Bitbucket/etc and send us the link.
 ### The Solution:
 Please follow these steps to test.
 
-First of all run   composer install to install all the dependencies 
+Clone the git repo  **git clone git@github.com:zumbani/MDS_Assessment_Test_Holidays.git**
+
+Then  run   **composer instal**l to install all the dependencies 
 
 To generate the Application Encryprion Key , run the **php artisan key:generat**e command
 
